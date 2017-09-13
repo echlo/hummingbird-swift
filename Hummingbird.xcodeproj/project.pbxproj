@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7DDD0F21F684B8C00A60283 /* ByteParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0F11F684B8C00A60283 /* ByteParser.swift */; };
+		B7DDD0F41F684BA300A60283 /* ByteStringConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0F31F684BA300A60283 /* ByteStringConverter.swift */; };
+		B7DDD0F61F684BB000A60283 /* ByteUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0F51F684BB000A60283 /* ByteUtils.swift */; };
+		B7DDD1071F684C4F00A60283 /* HBCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0FC1F684C4F00A60283 /* HBCollection.swift */; };
+		B7DDD1081F684C4F00A60283 /* HBDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0FD1F684C4F00A60283 /* HBDecodable.swift */; };
+		B7DDD1091F684C4F00A60283 /* HBDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0FE1F684C4F00A60283 /* HBDecoder.swift */; };
+		B7DDD10A1F684C4F00A60283 /* HBEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD0FF1F684C4F00A60283 /* HBEncoder.swift */; };
+		B7DDD10B1F684C4F00A60283 /* HBFoundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1001F684C4F00A60283 /* HBFoundation.swift */; };
+		B7DDD10C1F684C4F00A60283 /* HBKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1011F684C4F00A60283 /* HBKey.swift */; };
+		B7DDD10D1F684C4F00A60283 /* HBKeyGen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1021F684C4F00A60283 /* HBKeyGen.swift */; };
+		B7DDD10E1F684C4F00A60283 /* HBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1031F684C4F00A60283 /* HBObject.swift */; };
+		B7DDD10F1F684C4F00A60283 /* HBPrimitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1041F684C4F00A60283 /* HBPrimitive.swift */; };
+		B7DDD1101F684C4F00A60283 /* HBSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1051F684C4F00A60283 /* HBSerializable.swift */; };
+		B7DDD1111F684C4F00A60283 /* HummingBird.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1061F684C4F00A60283 /* HummingBird.swift */; };
+		B7DDD11F1F684C7100A60283 /* Hummingbird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DDD0D01F68425F00A60283 /* Hummingbird.framework */; };
+		B7DDD1251F684CF200A60283 /* HBDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1121F684C6100A60283 /* HBDecodableTests.swift */; };
+		B7DDD1261F684CF600A60283 /* HBEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1131F684C6100A60283 /* HBEncoderTests.swift */; };
+		B7DDD1281F68CBC800A60283 /* Hummingbird.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B7DDD1271F68CBC800A60283 /* Hummingbird.podspec */; };
+		B7DDD12A1F68CD5800A60283 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B7DDD1291F68CD5800A60283 /* LICENSE */; };
+		B7DDD12C1F68D35D00A60283 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B7DDD12B1F68D35D00A60283 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7DDD1201F684C7100A60283 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7DDD0C71F68425F00A60283 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7DDD0CF1F68425F00A60283;
+			remoteInfo = Hummingbird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7DDD0D01F68425F00A60283 /* Hummingbird.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hummingbird.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DDD0D41F68425F00A60283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DDD0F11F684B8C00A60283 /* ByteParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteParser.swift; sourceTree = "<group>"; };
+		B7DDD0F31F684BA300A60283 /* ByteStringConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteStringConverter.swift; sourceTree = "<group>"; };
+		B7DDD0F51F684BB000A60283 /* ByteUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteUtils.swift; sourceTree = "<group>"; };
+		B7DDD0FC1F684C4F00A60283 /* HBCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBCollection.swift; sourceTree = "<group>"; };
+		B7DDD0FD1F684C4F00A60283 /* HBDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBDecodable.swift; sourceTree = "<group>"; };
+		B7DDD0FE1F684C4F00A60283 /* HBDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBDecoder.swift; sourceTree = "<group>"; };
+		B7DDD0FF1F684C4F00A60283 /* HBEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBEncoder.swift; sourceTree = "<group>"; };
+		B7DDD1001F684C4F00A60283 /* HBFoundation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBFoundation.swift; sourceTree = "<group>"; };
+		B7DDD1011F684C4F00A60283 /* HBKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBKey.swift; sourceTree = "<group>"; };
+		B7DDD1021F684C4F00A60283 /* HBKeyGen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBKeyGen.swift; sourceTree = "<group>"; };
+		B7DDD1031F684C4F00A60283 /* HBObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBObject.swift; sourceTree = "<group>"; };
+		B7DDD1041F684C4F00A60283 /* HBPrimitive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBPrimitive.swift; sourceTree = "<group>"; };
+		B7DDD1051F684C4F00A60283 /* HBSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBSerializable.swift; sourceTree = "<group>"; };
+		B7DDD1061F684C4F00A60283 /* HummingBird.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HummingBird.swift; sourceTree = "<group>"; };
+		B7DDD1121F684C6100A60283 /* HBDecodableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HBDecodableTests.swift; path = "../Hummingbird Tests/HBDecodableTests.swift"; sourceTree = "<group>"; };
+		B7DDD1131F684C6100A60283 /* HBEncoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HBEncoderTests.swift; path = "../Hummingbird Tests/HBEncoderTests.swift"; sourceTree = "<group>"; };
+		B7DDD11A1F684C7100A60283 /* HummingbirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HummingbirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7DDD11E1F684C7100A60283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7DDD1271F68CBC800A60283 /* Hummingbird.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hummingbird.podspec; sourceTree = "<group>"; };
+		B7DDD1291F68CD5800A60283 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B7DDD12B1F68D35D00A60283 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7DDD0CC1F68425F00A60283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DDD1171F684C7100A60283 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DDD11F1F684C7100A60283 /* Hummingbird.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7DDD0C61F68425F00A60283 = {
+			isa = PBXGroup;
+			children = (
+				B7DDD12B1F68D35D00A60283 /* .gitignore */,
+				B7DDD1291F68CD5800A60283 /* LICENSE */,
+				B7DDD0D21F68425F00A60283 /* Hummingbird */,
+				B7DDD11B1F684C7100A60283 /* HummingbirdTests */,
+				B7DDD0D11F68425F00A60283 /* Products */,
+				B7DDD1271F68CBC800A60283 /* Hummingbird.podspec */,
+			);
+			sourceTree = "<group>";
+		};
+		B7DDD0D11F68425F00A60283 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7DDD0D01F68425F00A60283 /* Hummingbird.framework */,
+				B7DDD11A1F684C7100A60283 /* HummingbirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7DDD0D21F68425F00A60283 /* Hummingbird */ = {
+			isa = PBXGroup;
+			children = (
+				B7DDD0FC1F684C4F00A60283 /* HBCollection.swift */,
+				B7DDD0FD1F684C4F00A60283 /* HBDecodable.swift */,
+				B7DDD0FE1F684C4F00A60283 /* HBDecoder.swift */,
+				B7DDD0FF1F684C4F00A60283 /* HBEncoder.swift */,
+				B7DDD1001F684C4F00A60283 /* HBFoundation.swift */,
+				B7DDD1011F684C4F00A60283 /* HBKey.swift */,
+				B7DDD1021F684C4F00A60283 /* HBKeyGen.swift */,
+				B7DDD1031F684C4F00A60283 /* HBObject.swift */,
+				B7DDD1041F684C4F00A60283 /* HBPrimitive.swift */,
+				B7DDD1051F684C4F00A60283 /* HBSerializable.swift */,
+				B7DDD1061F684C4F00A60283 /* HummingBird.swift */,
+				B7DDD0F51F684BB000A60283 /* ByteUtils.swift */,
+				B7DDD0F31F684BA300A60283 /* ByteStringConverter.swift */,
+				B7DDD0F11F684B8C00A60283 /* ByteParser.swift */,
+				B7DDD0D41F68425F00A60283 /* Info.plist */,
+			);
+			path = Hummingbird;
+			sourceTree = "<group>";
+		};
+		B7DDD11B1F684C7100A60283 /* HummingbirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7DDD1121F684C6100A60283 /* HBDecodableTests.swift */,
+				B7DDD1131F684C6100A60283 /* HBEncoderTests.swift */,
+				B7DDD11E1F684C7100A60283 /* Info.plist */,
+			);
+			path = HummingbirdTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B7DDD0CD1F68425F00A60283 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B7DDD0CF1F68425F00A60283 /* Hummingbird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DDD0D81F68425F00A60283 /* Build configuration list for PBXNativeTarget "Hummingbird" */;
+			buildPhases = (
+				B7DDD0CB1F68425F00A60283 /* Sources */,
+				B7DDD0CC1F68425F00A60283 /* Frameworks */,
+				B7DDD0CD1F68425F00A60283 /* Headers */,
+				B7DDD0CE1F68425F00A60283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hummingbird;
+			productName = Hummingbird;
+			productReference = B7DDD0D01F68425F00A60283 /* Hummingbird.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B7DDD1191F684C7100A60283 /* HummingbirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7DDD1221F684C7100A60283 /* Build configuration list for PBXNativeTarget "HummingbirdTests" */;
+			buildPhases = (
+				B7DDD1161F684C7100A60283 /* Sources */,
+				B7DDD1171F684C7100A60283 /* Frameworks */,
+				B7DDD1181F684C7100A60283 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7DDD1211F684C7100A60283 /* PBXTargetDependency */,
+			);
+			name = HummingbirdTests;
+			productName = HummingbirdTests;
+			productReference = B7DDD11A1F684C7100A60283 /* HummingbirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7DDD0C71F68425F00A60283 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Echlo, Inc";
+				TargetAttributes = {
+					B7DDD0CF1F68425F00A60283 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 977953WC38;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					B7DDD1191F684C7100A60283 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 977953WC38;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B7DDD0CA1F68425F00A60283 /* Build configuration list for PBXProject "Hummingbird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7DDD0C61F68425F00A60283;
+			productRefGroup = B7DDD0D11F68425F00A60283 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7DDD0CF1F68425F00A60283 /* Hummingbird */,
+				B7DDD1191F684C7100A60283 /* HummingbirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7DDD0CE1F68425F00A60283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DDD12A1F68CD5800A60283 /* LICENSE in Resources */,
+				B7DDD12C1F68D35D00A60283 /* .gitignore in Resources */,
+				B7DDD1281F68CBC800A60283 /* Hummingbird.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DDD1181F684C7100A60283 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7DDD0CB1F68425F00A60283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DDD0F21F684B8C00A60283 /* ByteParser.swift in Sources */,
+				B7DDD0F41F684BA300A60283 /* ByteStringConverter.swift in Sources */,
+				B7DDD1111F684C4F00A60283 /* HummingBird.swift in Sources */,
+				B7DDD10E1F684C4F00A60283 /* HBObject.swift in Sources */,
+				B7DDD1071F684C4F00A60283 /* HBCollection.swift in Sources */,
+				B7DDD10D1F684C4F00A60283 /* HBKeyGen.swift in Sources */,
+				B7DDD10C1F684C4F00A60283 /* HBKey.swift in Sources */,
+				B7DDD10B1F684C4F00A60283 /* HBFoundation.swift in Sources */,
+				B7DDD1081F684C4F00A60283 /* HBDecodable.swift in Sources */,
+				B7DDD10F1F684C4F00A60283 /* HBPrimitive.swift in Sources */,
+				B7DDD10A1F684C4F00A60283 /* HBEncoder.swift in Sources */,
+				B7DDD1101F684C4F00A60283 /* HBSerializable.swift in Sources */,
+				B7DDD1091F684C4F00A60283 /* HBDecoder.swift in Sources */,
+				B7DDD0F61F684BB000A60283 /* ByteUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7DDD1161F684C7100A60283 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7DDD1261F684CF600A60283 /* HBEncoderTests.swift in Sources */,
+				B7DDD1251F684CF200A60283 /* HBDecodableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7DDD1211F684C7100A60283 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7DDD0CF1F68425F00A60283 /* Hummingbird */;
+			targetProxy = B7DDD1201F684C7100A60283 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7DDD0D61F68425F00A60283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7DDD0D71F68425F00A60283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7DDD0D91F68425F00A60283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 977953WC38;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Hummingbird/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echlo.Hummingbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B7DDD0DA1F68425F00A60283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 977953WC38;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Hummingbird/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echlo.Hummingbird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B7DDD1231F684C7100A60283 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 977953WC38;
+				INFOPLIST_FILE = HummingbirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echlo.HummingbirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B7DDD1241F684C7100A60283 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 977953WC38;
+				INFOPLIST_FILE = HummingbirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.echlo.HummingbirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7DDD0CA1F68425F00A60283 /* Build configuration list for PBXProject "Hummingbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DDD0D61F68425F00A60283 /* Debug */,
+				B7DDD0D71F68425F00A60283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7DDD0D81F68425F00A60283 /* Build configuration list for PBXNativeTarget "Hummingbird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DDD0D91F68425F00A60283 /* Debug */,
+				B7DDD0DA1F68425F00A60283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7DDD1221F684C7100A60283 /* Build configuration list for PBXNativeTarget "HummingbirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7DDD1231F684C7100A60283 /* Debug */,
+				B7DDD1241F684C7100A60283 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7DDD0C71F68425F00A60283 /* Project object */;
+}
