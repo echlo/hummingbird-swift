@@ -24,9 +24,6 @@
 		B7DDD11F1F684C7100A60283 /* Hummingbird.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7DDD0D01F68425F00A60283 /* Hummingbird.framework */; };
 		B7DDD1251F684CF200A60283 /* HBDecodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1121F684C6100A60283 /* HBDecodableTests.swift */; };
 		B7DDD1261F684CF600A60283 /* HBEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7DDD1131F684C6100A60283 /* HBEncoderTests.swift */; };
-		B7DDD1281F68CBC800A60283 /* Hummingbird.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B7DDD1271F68CBC800A60283 /* Hummingbird.podspec */; };
-		B7DDD12A1F68CD5800A60283 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B7DDD1291F68CD5800A60283 /* LICENSE */; };
-		B7DDD12C1F68D35D00A60283 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B7DDD12B1F68D35D00A60283 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +57,6 @@
 		B7DDD1131F684C6100A60283 /* HBEncoderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HBEncoderTests.swift; path = "../Hummingbird Tests/HBEncoderTests.swift"; sourceTree = "<group>"; };
 		B7DDD11A1F684C7100A60283 /* HummingbirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HummingbirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7DDD11E1F684C7100A60283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7DDD1271F68CBC800A60283 /* Hummingbird.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Hummingbird.podspec; sourceTree = "<group>"; };
-		B7DDD1291F68CD5800A60283 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		B7DDD12B1F68D35D00A60283 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +81,9 @@
 		B7DDD0C61F68425F00A60283 = {
 			isa = PBXGroup;
 			children = (
-				B7DDD12B1F68D35D00A60283 /* .gitignore */,
-				B7DDD1291F68CD5800A60283 /* LICENSE */,
 				B7DDD0D21F68425F00A60283 /* Hummingbird */,
 				B7DDD11B1F684C7100A60283 /* HummingbirdTests */,
 				B7DDD0D11F68425F00A60283 /* Products */,
-				B7DDD1271F68CBC800A60283 /* Hummingbird.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,9 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7DDD12A1F68CD5800A60283 /* LICENSE in Resources */,
-				B7DDD12C1F68D35D00A60283 /* .gitignore in Resources */,
-				B7DDD1281F68CBC800A60283 /* Hummingbird.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
