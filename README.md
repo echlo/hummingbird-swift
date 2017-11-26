@@ -7,6 +7,12 @@ This is an implementation of the Hummingbird parser and serializer for Swift.
 Hummingbird is a binary serialization format. See the [spec](https://github.com/echlo/hummingbird) 
 for details and format specification.
 
+## Version history
+
+2.0.0 - A straightforward upgrade to Swift 4.0
+
+1.0.0 - Initial release
+
 ## Installing
 
 ### Cocoapods

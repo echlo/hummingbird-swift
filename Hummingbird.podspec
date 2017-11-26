@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
   
   s.source_files  = "Hummingbird/*.swift"
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+
 end
