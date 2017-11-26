@@ -74,7 +74,7 @@ struct HBPrimitive: HBSerializable {
     }
     init(value: Int) {
         if MemoryLayout<Int>.size == 8 {
-            self.init(value: value.toIntMax())
+            self.init(value: Int64(value))
         } else {
             self.init(value: Int32(value))
         }
@@ -199,14 +199,14 @@ struct HBPrimitive: HBSerializable {
             throw HBError.primitiveTypeMismatch
         case .int64:
             let val = ByteUtils.toInt64(bytes)
-            let result = Int32(truncatingBitPattern: val)
+            let result = Int32(truncatingIfNeeded: val)
             if result >= 0 {
                 return result
             }
             throw HBError.primitiveTypeMismatch
         case .uInt64:
             let val = ByteUtils.toUInt64(bytes)
-            let result = Int32(truncatingBitPattern: val)
+            let result = Int32(truncatingIfNeeded: val)
             if result >= 0 {
                 return result
             }

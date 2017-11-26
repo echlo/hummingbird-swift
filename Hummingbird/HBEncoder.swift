@@ -77,6 +77,10 @@ public class HBEncoder {
         }
     }
     
+    public func encode(_ value: String, forKey key: String) {
+        rootObject.add(HBPrimitive(value: value), forKey: keygen.get(key))        
+    }
+    
     public func encode(_ value: Bool, forKey key: String) {
         rootObject.add(HBPrimitive(value: value), forKey: keygen.get(key))
     }

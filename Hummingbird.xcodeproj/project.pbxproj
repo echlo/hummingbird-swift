@@ -190,7 +190,7 @@
 					B7DDD0CF1F68425F00A60283 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 977953WC38;
-						LastSwiftMigration = 0830;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					B7DDD1191F684C7100A60283 = {
@@ -395,7 +395,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -415,7 +416,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.echlo.Hummingbird;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -462,6 +464,7 @@
 				B7DDD0DA1F68425F00A60283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B7DDD1221F684C7100A60283 /* Build configuration list for PBXNativeTarget "HummingbirdTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +473,7 @@
 				B7DDD1241F684C7100A60283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
